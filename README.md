@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Eshop
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
@@ -26,3 +27,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# angular4-eshop
+学习Angular4.0的简易Demo
+>>>>>>> 157d2adeb72af271c3d62b42dca50cb1ff3c4e72
