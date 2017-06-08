@@ -1,5 +1,5 @@
 # angular4-eshop
-学习Angular4.0的简易Demo,包含了组件,路由,依赖注入,守卫,管道,服务等功能的实践.  
+学习慕课网Angular4.0视频做的简易Demo,包含了组件,路由,依赖注入,守卫,管道,服务等功能的实践.  
 此项目基于[Angular CLI](https://github.com/angular/angular-cli)构建工具开发.  
 ###  本Demo环境:  
 > *nodejs 6.10  
