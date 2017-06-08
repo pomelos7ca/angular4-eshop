@@ -10,6 +10,15 @@ import { SearchComponent } from './search/search.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ProductComponent } from './product/product.component';
 import { StarsComponent } from './stars/stars.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { HomeComponent } from './home/home.component';
+import { Routes, RouterModule } from "@angular/router";
+import { ProductService } from "app/shared/product.service";
+
+const routeConfig:Routes=[
+  { path:'',component:HomeComponent },
+  { path:'product/:id',component:ProductDetailComponent }
+];
 
 @NgModule({
   declarations: [
@@ -19,14 +28,17 @@ import { StarsComponent } from './stars/stars.component';
     SearchComponent,
     CarouselComponent,
     ProductComponent,
-    StarsComponent
+    StarsComponent,
+    ProductDetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(routeConfig) //只在主模块中采用forRoot
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
