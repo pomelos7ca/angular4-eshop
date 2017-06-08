@@ -10,7 +10,12 @@
 ```
 npm run start # 或npm start 或 ng serve
 ```
-打开`http://localhost:4200/`查看页面效果.
+打开`http://localhost:4200/`查看页面效果.附上截图两张:  
+主要文件目录结构:  
+![文件结构](./snapshot/fileshot.png)
+
+运行首页效果:  
+![运行效果](./snapshot/eshop.png)
 
 ---
 ### 附1.
