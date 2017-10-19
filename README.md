@@ -71,4 +71,4 @@ ng g directive umeditor
 ![test](./aspnet.svg)
 
 
-![testsvg](https://raw.githubusercontent.com/sharp-summit/angular4-eshop/master/aspnet.svg)
+![testsvg](https://raw.githubusercontent.com/sharp-summit/angular4-eshop/master/aspnet.svg?sanitize=true)
