@@ -67,3 +67,5 @@ ng g directive umeditor
 除此之外还有创建class,enum,interface的命令,基本上手写,就省略了..  
 每一个ng generate [name]命令都有着更精细的控制参数,可在这里查看[ng generate](https://github.com/angular/angular-cli/wiki/generate)
 
+
+![test](./aspnet.svg)
